@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Tanadol Kamthong(Prom)
 - 👀 I’m interested in Web Dev
-- 🌱 I’m currently learning at Suankularb Wittayalai Thonburi School, Thailand
-- 💞️ I’m looking to collaborate on on any website related work
+- 🌱 I’m currently studying computer engineering at King Mongkut's Institute of Technology Ladkrabang, Thailand
+- 💞️ I’m looking to collaborate on any website-related work
 - 📫 You can contact me at tanadolkamthong@gmail.com
 
 <!---
