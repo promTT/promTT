@@ -27,11 +27,11 @@ I build systems end to end — from schematic and PCB layout to firmware, backen
 
 ## Featured Projects
 
-### 🏢 Apartment Management Platform
-A multi-tenant property-management system for owners, admins, and tenants — covering buildings, floors, rooms, contracts, meter readings, billing, and role-based access.
-`NestJS` `TypeScript` `MongoDB` `React` `Tailwind CSS` `JWT`
+### ✈️ MAD Airplane — Custom STM32 Flight Controller
+A flight controller and nRF24 ground station for a 1.5 m, 1.4 kg RC aircraft. Runs a 100 Hz PID stabilization loop, parses FlySky iBUS frames on UART interrupts, reads a BNO055 IMU, and streams telemetry to an ILI9341 HUD where takeoff clearance and PID gains are controlled live.
+`STM32F767ZI` `C` `STM32 HAL` `PID` `BNO055` `nRF24L01+` `UART/SPI/I2C`
 
-→ [Backend API](https://github.com/promTT/backend) · [Web Frontend](https://github.com/promTT/WEB_APARTMENT)
+→ [View repository](https://github.com/promTT/mad-airplane-flight-controller)
 
 ### 🧾 Automated Apartment Billing CLI
 A Python CLI that replaces manual monthly billing: imports meter readings from CSV, validates anomalies, generates Thai-language PDF invoices, splits them into per-room images, and archives each billing cycle safely.
@@ -53,9 +53,8 @@ Clean, from-scratch Python implementations of stacks, queues, linked lists, tree
 
 ---
 
-## Hardware & Embedded Projects
+## More Hardware & Embedded Work
 
-- **STM32 Flight Controller** — 1.5 m RC aircraft with a 100 Hz PID loop on hardware timers, FlySky i-BUS parsing via UART RX interrupts, BNO080 9-DOF IMU, failsafe, and anti-windup filtering.
 - **Pick-to-Light Warehouse System** — PIC18F nodes on an RS-485 bus receive pick tasks from a master controller and display quantities on 7-segment displays; designed the production PCB in Altium Designer and wrote the node firmware.
 - **Dual-FPGA Pen Plotter** — G-code reader on one FPGA streams over UART to a second FPGA driving steppers and servos, with a hardware pause button and live status display, written in VHDL.
 - **IoT Solar Streetlight Monitor** — ESP32 retrofit node that measures lamp status and charging efficiency and reports telemetry over MQTT via a cellular module where no internet is available.
